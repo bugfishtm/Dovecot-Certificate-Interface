@@ -9,7 +9,7 @@ The documentation is available in the "docs" folder inside this repositorie!
 
 # Dovecot-Certificate-Interface [DCI]
 
-![framework](./docs/bframe.jpg)
+![framework](./_images/logo.jpg)
 
 This software is to enable dovecot per domain ssl certificates and manage / control them. Besides that it is designed to work automated together with ispconfig... Inside the webinterface are different informations in every areas which are there to help you using this software. I hope you will get an understanding about what this software was designed for and how you can get your use out of it. I wish you the best.
 
