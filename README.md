@@ -13,6 +13,12 @@ The documentation is available in the "docs" folder inside this repositorie!
 
 This software is to enable dovecot per domain ssl certificates and manage / control them. Besides that it is designed to work automated together with ispconfig... Inside the webinterface are different informations in every areas which are there to help you using this software. I hope you will get an understanding about what this software was designed for and how you can get your use out of it. I wish you the best.
 
+## Requirements
+- Mailserver running with Dovecot 
+- Be sure no other software is managing per Domain SSL Certificates
+- PHP7/PHP8 Capable Webserver
+- MySQL Database
+
 ## Example Image
 ![plot](./_images/1.png)
 
