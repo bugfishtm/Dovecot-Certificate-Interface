@@ -65,7 +65,7 @@ This Android WebApp Example project offers a convenient way to deploy customized
 
 ## Powered by Bugfish Framework
 
-![plot](./_images/bugfish-cms-banner.jpg)
+![plot](./_images/bugfish-framework-banner.jpg)
 
 ## License Information
 
