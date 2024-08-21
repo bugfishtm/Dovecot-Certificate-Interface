@@ -1,10 +1,3 @@
-![Bugfish](https://img.shields.io/badge/Bugfish-Software-orange)
-![Status](https://img.shields.io/badge/Status-Finished-green)
-![License](https://img.shields.io/badge/License-GPLv3-black)
-![Version](https://img.shields.io/badge/Version-1.2.0-white)
-
-Repository: https://github.com/bugfishtm/Dovecot-Certificate-Interface  
-Documentation: https://bugfishtm.github.io/Dovecot-Certificate-Interface/  
 The documentation is available in the "docs" folder inside this repositorie!
 
 # Dovecot-Certificate-Interface [DCI]
