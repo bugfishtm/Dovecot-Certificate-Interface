@@ -1,9 +1,10 @@
 site_name: Dovecot-Certificate-Interface
-repo_url: https://github.com/bugfishtm/Dovecot-Certificate-Interface/releases
+repo_url: https://github.com/bugfishtm/Dovecot-Certificate-Interface
 repo_name: bugfishtm/Dovecot-Certificate-Interface/releases
 
 nav:
-  - Home: index.md
+  - Introduction: index.md
+  - Download: download.md
   - Installation: installation.md
   - Support: support.md
   - License: license.md
@@ -19,6 +20,8 @@ theme:
   language: 'en'
   accent: deep orange
   font: false
+  features:
+    - content.code.copy
   palette:
     - scheme: slate
       primary: deep orange
@@ -33,7 +36,16 @@ extra_javascript:
 plugins:
     - mkdocstrings
     - search
-    - mkdocs-video
+    - mkdocs-video:
+        video_autoplay: false
+    - glightbox:
+        touchNavigation: true
+        loop: false
+        effect: zoom
+        width: 100%
+        height: auto
+        zoomable: true
+        draggable: true
     - meta-descriptions:
        export_csv: false
        quiet: false
@@ -44,6 +56,13 @@ plugins:
     
 markdown_extensions:
   - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   
 use_directory_urls: false
 

@@ -11,13 +11,6 @@ Welcome to the documentation for the Dovecot Certificate Interface [DCI]! This s
 
 **Important:** If another system is already managing Dovecot configuration files (e.g., Plesk), using this software may lead to conflicts.
 
-For additional resources, you can:
-
-- [Download the latest release](https://github.com/bugfishtm/Dovecot-Certificate-Interface/archive/refs/heads/main.zip)
-- [Visit the GitHub repository](https://github.com/bugfishtm/Dovecot-Certificate-Interface)
-
-## General Information
-
 The Dovecot Certificate Interface allows for:
 - SSL certificates for each domain used with Dovecot.
 - Automation of certificate configuration with ISPConfig.
@@ -27,38 +20,20 @@ The Dovecot Certificate Interface allows for:
 
 ## Tutorial Videos
 
-Introduction Video  
-<video width="320" height="240" controls>
-    <source src="./introduction.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-[Download Video](./introduction.mp4) | [Download Handout](./presentation.pptx)
-
-Information Video  
-<video width="320" height="240" controls>
-    <source src="./information.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-[Download Video](./information.mp4)
+![type:video](./introduction.mp4){: autoplay="false"}
+[Download Handout](./presentation.pptx)
+![type:video](./information.mp4){: autoplay="false"}
 
 ## Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-    <a href="main.png" target="_blank">
-        <img src="main.png" alt="Screenshot of Domain Panel" style="width: 100%; max-width: 300px; height: auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
-    </a>
-    <a href="2.png" target="_blank">
-        <img src="2.png" alt="Screenshot of Blacklisting Feature" style="width: 100%; max-width: 300px; height: auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
-    </a>
-    <a href="1.png" target="_blank">
-        <img src="1.png" alt="Screenshot of User Management Panel" style="width: 100%; max-width: 300px; height: auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
-    </a>
-</div>
+![Screenshot of Domain Panel](./main.png)
+![Screenshot of Blacklisting Feature](./2.png)
+![Screenshot of User Management Panel](./1.png)
 
-
+<br clear="both">
 ## Project Acknowledgment
 
-The Dovecot Certificate Interface project was developed using the [Bugfish Framework](./bugfish-framework-banner.jpg).
+The Dovecot Certificate Interface project was developed using the Bugfish Framework.
 
 ## Requirements
 
