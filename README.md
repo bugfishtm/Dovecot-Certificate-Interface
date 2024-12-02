@@ -2,6 +2,8 @@
 
 ![DCI Logo](./_images/logo.jpg)
 
+## Introduction
+
 DCI is a software tool designed to enable and manage per-domain SSL certificates for Dovecot, seamlessly integrating with ISPConfig. This interface offers automation, user management, logging, and other features to simplify the administration of secure email services.
 
 ## Features
@@ -17,12 +19,17 @@ DCI is a software tool designed to enable and manage per-domain SSL certificates
 - **Standalone Mode**: Can be used independently of other hosting software, though manual Dovecot configuration is required.
 - **Logging**: DCI provides logging for cronjob activities and includes a debugging mode that can be enabled in `settings.php` to log MySQL errors.
 
+## Documentation
+This framework is documented inside the files you can find in the "docs" folder. Just open the index.html with your web browser and you can navigate through the documentation of every class and function.
+
+You can also find the documentation at: 
+https://bugfishtm.github.io/Dovecot-Certificate-Interface/
 
 ## Requirements
 
 - Mailserver with Dovecot
 - No other software managing per-domain SSL certificates
-- PHP7/PHP8-capable web server
+- PHP8-capable web server
 - MySQL database
 
 ## Example Images
@@ -50,3 +57,5 @@ For support, visit [bugfish.eu/forum](https://www.bugfish.eu/forum) or contact u
 ## License Information
 
 Refer to the `license.md` file in the repository for licensing details and compliance requirements.
+
+🐟 Bugfish <3

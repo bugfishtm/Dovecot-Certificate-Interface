@@ -18,19 +18,6 @@ The Dovecot Certificate Interface allows for:
 
 **Note:** This software has been tested primarily on Debian and Ubuntu systems. Compatibility with other systems should be verified individually.
 
-## Tutorial Videos
-
-![type:video](./introduction.mp4){: autoplay="false"}
-[Download Handout](./presentation.pptx)
-![type:video](./information.mp4){: autoplay="false"}
-
-## Screenshots
-
-![Screenshot of Domain Panel](./main.png)
-![Screenshot of Blacklisting Feature](./2.png)
-![Screenshot of User Management Panel](./1.png)
-
-<br clear="both">
 ## Project Acknowledgment
 
 The Dovecot Certificate Interface project was developed using the Bugfish Framework.
