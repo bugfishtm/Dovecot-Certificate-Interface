@@ -2,11 +2,11 @@
 
 ![DCI Logo](./_images/logo.jpg)
 
-## Introduction
+## 📝 Introduction
 
 DCI is a software tool designed to enable and manage per-domain SSL certificates for Dovecot, seamlessly integrating with ISPConfig. This interface offers automation, user management, logging, and other features to simplify the administration of secure email services.
 
-## Features
+## ⚙️ Features
 
 - **Per-Domain SSL Certificate Management**: Automates the configuration of SSL certificates for individual domains in Dovecot.
 - **SSL Validation**: Before adding domains to Dovecot, DCI conducts deep validation checks on SSL certificates to ensure proper configuration.
@@ -19,42 +19,42 @@ DCI is a software tool designed to enable and manage per-domain SSL certificates
 - **Standalone Mode**: Can be used independently of other hosting software, though manual Dovecot configuration is required.
 - **Logging**: DCI provides logging for cronjob activities and includes a debugging mode that can be enabled in `settings.php` to log MySQL errors.
 
-## Documentation
+## 📚 Documentation
 This framework is documented inside the files you can find in the "docs" folder. Just open the index.html with your web browser and you can navigate through the documentation of every class and function.
 
 You can also find the documentation at: 
 https://bugfishtm.github.io/Dovecot-Certificate-Interface/
 
-## Requirements
+## 💻 Requirements
 
 - Mailserver with Dovecot
 - No other software managing per-domain SSL certificates
 - PHP8-capable web server
 - MySQL database
 
-## Example Images
+## 🖼️ Example Images
 
 ![Example Image 1](./_images/1.png)
 ![Example Image 2](./_images/main.png)
 
-## System File Modifications
+## 🗂️ System File Modifications
 
 DCI operates non-destructively, meaning it does not alter active configuration files. Instead, it generates a configuration file defined by the `_CRON_DOVECOT_FILE_` constant in `settings.php`. The only manual change required is adding a single string to `dovecot.conf`, which can be easily reverted. The software validates certificates deeply, minimizing the risk of corrupting Dovecot configurations. However, ensure it is not used alongside other hosting software like Plesk or Virtualmin, which might conflict with its operations.
 
-## Default Login for Web Interface
+## 🔑 Default Login for Web Interface
 
 - **Username:** admin  
 - **Password:** changeme
 
-## Support & Assistance
+## 🛠️ Support & Assistance
 
 For support, visit [bugfish.eu/forum](https://www.bugfish.eu/forum) or contact us at [request@bugfish.eu](mailto:request@bugfish.eu).
 
-## Powered by Bugfish Framework
+## ⚙️ Powered by Bugfish Framework
 
 ![Bugfish Framework](./_images/bugfish-framework-banner.jpg)
 
-## License Information
+## 📜 License Information
 
 Refer to the `license.md` file in the repository for licensing details and compliance requirements.
 

@@ -15,3 +15,5 @@ We are excited to announce the release of version 1.2.0. This version marks a si
 - We will continue to provide support and address any issues as they arise.
 
 Thank you for your continued support. We look forward to delivering further improvements and updates in the future.
+
+🐟 Bugfish <3  
