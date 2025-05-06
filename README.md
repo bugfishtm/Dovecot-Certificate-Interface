@@ -57,7 +57,7 @@ The following documentation is intended for developers.
 If you encounter any issues or have questions while using this software, feel free to contact us:
 
 - **GitHub Issues** is the main platform for reporting bugs, asking questions, or submitting feature requests: [https://github.com/bugfishtm/Dovecot-Certificate-Interface/issues](https://github.com/bugfishtm/Dovecot-Certificate-Interface/issues)
-- **Discord Community** is available for live discussions, support, and connecting with other users: [Join us on Discord](https://discord.com/invite/y5d2px9KEw)  
+- **Discord Community** is available for live discussions, support, and connecting with other users: [Join us on Discord](https://discord.gg/nqe2HSuKee)  
 - **Email support** is recommended only for urgent security-related issues: [security@bugfish.eu](mailto:security@bugfish.eu)
 
 ## 📢 Spread the Word
